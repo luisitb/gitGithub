@@ -19,4 +19,4 @@ git shortlog -sn
 git show a6ea4f16ced9f2c hash 
 git diff --name-only
 git checkout <file> -> undo changes to the file
-git reset HEAD <file> -> to unstage
+git reset HEAD <file> --soft --mixed --hard a6ea4f16ced9f2c hash -> to unstage
