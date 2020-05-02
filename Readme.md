@@ -18,3 +18,5 @@ git log --decorate --author="name specific" --graph
 git shortlog -sn
 git show a6ea4f16ced9f2c hash 
 git diff --name-only
+git checkout <file> -> undo changes to the file
+git reset HEAD <file> -> to unstage
